@@ -1,0 +1,81 @@
+/* Reset básico */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-color: #f5f5f5;
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 100vh;
+}
+
+.user-panel {
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.08);
+  padding: 2rem;
+  max-width: 500px;
+  width: 100%;
+  text-align: center;
+}
+
+.user-panel h2 {
+  font-size: 1.8rem;
+  margin-bottom: 1.5rem;
+  color: #9f2b68;
+}
+
+.user-panel .user-email {
+  font-size: 0.9rem;
+  color: #777;
+  margin-bottom: 1.5rem;
+}
+
+.user-panel ul {
+  list-style: none;
+  padding: 0;
+}
+
+.user-panel ul li {
+  margin: 0.8rem 0;
+}
+
+.user-panel ul li a {
+  text-decoration: none;
+  color: #555;
+  font-size: 1rem;
+  transition: color 0.2s;
+}
+
+.user-panel ul li a:hover {
+  color: #9f2b68;
+  font-weight: 600;
+}
+
+/* Modo admin */
+body.admin-panel {
+  background-color: #fffaf0;
+}
+
+.admin-panel .user-panel {
+  border: 2px solid #ffb347;
+  background-color: #fffef8;
+}
+
+.admin-panel .user-panel h2 {
+  color: #d35400;
+}
+
+.admin-panel .user-panel ul li a {
+  color: #d35400;
+}
+
+.admin-panel .user-panel ul li a:hover {
+  color: #a84300;
+}

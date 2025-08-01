@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nosotros - Ma!</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-white border-bottom fixed-top">
+  <div class="container">
+    <a class="navbar-brand" href="index.html">
+      <img src="img/ma.png" alt="Logo Ma!" class="logo-navbar">
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+        <li class="nav-item"><a class="nav-link" href="embarazo.html">Embarazo</a></li>
+        <li class="nav-item"><a class="nav-link" href="maternidad.html">Maternidad</a></li>
+        <li class="nav-item"><a class="nav-link" href="comunidad.html">Comunidad</a></li>
+        <li class="nav-item"><a class="nav-link" href="tienda.html">Tienda</a></li>
+        <li class="nav-item"><a class="nav-link active" class="nav-link" href="nosotros.html">Nosotros</a></li>
+        <li class="nav-item"><a class="nav-link" href="faq.html">FAQ</a></li>
+      </ul>
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a href="login.html" class="btn btn-outline-dark">Iniciar sesión</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="pt-5 mt-5"></div>
+
+<section id="nosotros-section" class="container py-5">
+  <h2 class="text-center mb-5">¡Conocé Ma!</h2>
+
+  <!-- Presentación -->
+  <div class="row align-items-center mb-5">
+    <div class="col-md-6">
+      <img src="img/nosotros-equipo.jpg" alt="Nuestro equipo" class="img-fluid rounded shadow-sm">
+    </div>
+    <div class="col-md-6">
+      <h5 class="section-title">¿Quiénes somos?</h5>
+      <p>Somos un equipo de mujeres que creó <strong>Ma!</strong> para brindar un acompañamiento real a las embarazadas y madres. Nuestro compromiso es ofrecer contención, comunidad e información confiable en un solo lugar.</p>
+    </div>
+  </div>
+
+  <!-- Misión -->
+  <div class="row align-items-center mb-5 flex-md-row-reverse">
+    <div class="col-md-6">
+      <img src="img/pexels-pavel-danilyuk-7055843.jpg" alt="Nuestra misión" class="img-fluid rounded shadow-sm">
+    </div>
+    <div class="col-md-6">
+      <h5 class="section-title">Nuestra misión</h5>
+      <p>Acompañar con amor y responsabilidad a quienes transitan el embarazo y la maternidad. Promovemos el consumo responsable con una <strong>tienda donde las mamis pueden vender o comprar desde accesorios, ropa a calzado para sus peques</strong>, además, generamos una comunidad donde compartimos contenidos útiles para cada etapa.</p>
+    </div>
+  </div>
+
+  <!-- Nuestros valores -->
+  <div class="row text-center mb-5">
+    <h5 class="section-title mb-4">Nuestros valores</h5>
+    <div class="col-md-4">
+      <i class="bi bi-heart-fill display-5 text-pink"></i>
+      <h6 class="mt-2">Empatía</h6>
+      <p class="small">Escuchamos, acompañamos y entendemos cada etapa de la maternidad con respeto y sensibilidad.</p>
+    </div>
+    <div class="col-md-4">
+      <i class="bi bi-people-fill display-5 text-success"></i>
+      <h6 class="mt-2">Comunidad</h6>
+      <p class="small">Creemos en el poder de compartir experiencias, ayudarnos y crear redes reales entre madres.</p>
+    </div>
+    <div class="col-md-4">
+      <i class="bi bi-recycle display-5 text-primary"></i>
+      <h6 class="mt-2">Sostenibilidad</h6>
+      <p class="small">Fomentamos el consumo consciente a través de la venta de productos usados, elegidos con amor y cuidado.</p>
+    </div>
+  </div>
+
+  <!-- Nuestro impacto -->
+  <div class="row align-items-center mb-5">
+    <div class="col-md-6">
+      <img src="img/impacto.webp" alt="Impacto social" class="img-fluid rounded shadow-sm">
+    </div>
+    <div class="col-md-6">
+      <h5 class="section-title">Nuestro impacto</h5>
+      <p>Con <strong>Ma!</strong> hemos generado una red de apoyo para cientos de mujeres, promoviendo no solo el bienestar físico y emocional, sino también un entorno donde el consumo consciente y la economía circular están presentes desde los primeros meses de vida. Cada prenda reutilizada, cada consejo compartido, suma.</p>
+    </div>
+  </div>
+
+  <!-- Formulario de contacto -->
+  <div class="contact-form mt-5 p-4 p-md-5 rounded bg-light">
+    <h5 class="mb-4 text-center">¿Querés contactarnos o dejarnos una sugerencia?</h5>
+    <form id="contactForm">
+      <div class="row g-3">
+        <div class="col-md-6">
+          <input type="text" class="form-control" placeholder="Nombre completo" id="nombre" required>
+        </div>
+        <div class="col-md-6">
+          <input type="email" class="form-control" placeholder="Correo electrónico" id="email" required>
+        </div>
+        <div class="col-12">
+          <input type="text" class="form-control" placeholder="Asunto (opcional)" id="asunto">
+        </div>
+        <div class="col-12">
+          <textarea class="form-control" rows="4" placeholder="Escribí tu consulta o propuesta..." id="mensaje" required></textarea>
+        </div>
+        <div class="col-12 text-center">
+          <button type="submit" class="btn btn-dark px-4 mt-2">Enviar</button>
+        </div>
+      </div>
+      <div id="confirmacion" class="text-success text-center mt-3" style="display:none;">
+        ¡Gracias por tu mensaje Ma! Te contestamos a la brevedad.
+      </div>
+    </form>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="bg-light pt-4 mt-5">
+  <div class="container">
+    <div class="row">
+      <div class="col-md">
+        <ul class="list-unstyled">
+          <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+          <li class="nav-item"><a class="nav-link" href="embarazo.html">Embarazo</a></li>
+          <li class="nav-item"><a class="nav-link" href="maternidad.html">Maternidad</a></li>
+          <li class="nav-item"><a class="nav-link" href="tienda.html">Tienda</a></li>
+          <li class="nav-item"><a class="nav-link" href="nosotros.html">Nosotros</a></li>
+          <li class="nav-item"><a class="nav-link" href="faq.html">FAQ</a></li>
+        </ul>
+      </div>
+      <div class="col-md text-end">
+        <a href="#" class="me-2"><i class="bi bi-instagram"></i></a>
+        <a href="#" class="me-2"><i class="bi bi-facebook"></i></a>
+        <a href="#" class="me-2"><i class="bi bi-twitter"></i></a>
+        <a href="#"><i class="bi bi-tiktok"></i></a>
+      </div>
+    </div>
+    <hr />
+    <div class="text-center small pb-2">
+      <a href="#">Términos y Condiciones</a> ·
+      <a href="#">Política de Privacidad</a><br />
+      © Ma!, 2025. Todos los derechos reservados.
+    </div>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script>
+  document.getElementById('contactForm').addEventListener('submit', function(e) {
+    e.preventDefault();
+    document.getElementById('confirmacion').style.display = 'block';
+    this.reset();
+  });
+</script>
+</body>
+</html>

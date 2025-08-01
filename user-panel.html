@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Mi cuenta</title>
+  <link rel="stylesheet" href="user-panel.css"/>
+</head>
+<body>
+  <div class="user-panel">
+    <h2>¡Hola, <span id="user-name">usuaria</span>!</h2>
+    <p class="user-email" id="user-email"></p>
+    <ul>
+      <li><a href="#">Historial de pedidos</a></li>
+      <li><a href="#">Información personal</a></li>
+      <li><a href="#">Mis productos</a></li>
+      <li><a href="#">Añadir/editar CBU</a></li>
+      <li><a href="login.html">Cerrar sesión</a></li>
+    </ul>
+  </div>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", () => {
+      const name = localStorage.getItem("userName") || "usuaria";
+      const email = localStorage.getItem("userEmail") || "";
+      document.getElementById("user-name").textContent = name;
+      document.getElementById("user-email").textContent = email;
+    });
+  </script>
+</body>
+</html>

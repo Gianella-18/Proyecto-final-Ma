@@ -1,0 +1,163 @@
+/* Estilo base */
+body { 
+  margin: 0;
+  font-family: sans-serif;
+  background-color: #fff6f8;
+  color: #333;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #fff;
+  padding: 10px;
+  text-align: center;
+  border-bottom: 1px solid #ccc;
+}
+
+.logo-navbar {
+  max-height: 40px;
+}
+
+/* Contenedor principal */
+.container {
+  padding: 20px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+/* ----------------------------- */
+/* Semana Mundial de la Lactancia */
+.semana-lactancia img {
+  width: 100%;
+  max-width: 420px;
+  margin: 20px auto;
+  display: block;
+  border-radius: 10px;
+}
+
+.semana-lactancia h4,
+.semana-lactancia p {
+  text-align: start;
+}
+
+/* Acordeones */
+.acordeon details {
+  margin-bottom: 10px;
+  background-color: #f9e5ef;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+/* ----------------------------- */
+/* Vacunación */
+.vacunacion-botones {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+  flex-wrap: wrap;
+}
+
+.vacunacion-botones button {
+  flex: 1;
+  padding: 10px;
+  background-color: #ddd;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.vacunacion-botones .activo {
+  background-color: #b9337a;
+  color: white;
+}
+
+.vacunacion-contenido {
+  background-color: #fff;
+  border-left: 4px solid #b9337a;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+/* ----------------------------- */
+/* Dermatitis */
+.dermatitis {
+  margin-top: 40px;
+}
+
+.derma-info {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+.derma-info img {
+  width: 40%;
+  border-radius: 5px;
+}
+
+.derma-iconos {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.derma-iconos div {
+  flex: 1 1 120px;
+  background: #f0f0f0;
+  text-align: center;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.derma-iconos i {
+  font-size: 24px;
+  color: #b9337a;
+}
+
+/* ----------------------------- */
+/* Odontopediatra */
+.odonto-imgs {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+  flex-wrap: wrap;
+}
+
+.odonto-imgs img {
+  flex: 1 1 30%;
+  max-width: 100%;
+  border-radius: 5px;
+}
+
+/* ----------------------------- */
+/* Carruseles generales */
+.carousel-item img {
+  max-height: 400px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.carousel-caption {
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 15px;
+  border-radius: 10px;
+}
+
+/* ----------------------------- */
+/* Responsive */
+@media (max-width: 768px) {
+  .derma-info {
+    flex-direction: column;
+  }
+
+  .vacunacion-botones {
+    flex-direction: column;
+  }
+
+  .derma-info img {
+    width: 100%;
+  }
+}

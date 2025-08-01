@@ -1,0 +1,37 @@
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Icon?
+
+# Archivos de configuración de VS Code
+.vscode/
+
+# Archivos temporales o de respaldo
+*.log
+*.tmp
+*.bak
+*.swp
+
+# Archivos de sistemas operativos
+desktop.ini
+
+# Archivos comprimidos
+*.zip
+*.rar
+*.tar.gz
+*.7z
+
+# Directorios de despliegue o pruebas
+dist/
+build/
+
+# Archivos de Live Server (extensión de VS Code)
+.liveserver*
+
+# Node (si alguna vez usás npm en este proyecto)
+node_modules/
+package-lock.json
+
+# Archivos personales
+.env
