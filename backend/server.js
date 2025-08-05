@@ -4,6 +4,9 @@ import dotenv from "dotenv";
 import cors from "cors";
 
 import userRoutes from "./routes/user.routes.js";
+import postRoutes from "./routes/post.routes.js";
+import productoRoutes from "./routes/producto.routes.js";
+import carritoRoutes from "./routes/carrito.routes.js";
 
 dotenv.config();
 
@@ -15,6 +18,9 @@ app.use(express.json());
 
 // Routes
 app.use("/api/users", userRoutes);
+app.use("/api/posts", postRoutes);
+app.use("/api/productos", productoRoutes);
+app.use("/api/carrito", carritoRoutes);
 
 // MongoDB connection
 const PORT = process.env.PORT || 5000;

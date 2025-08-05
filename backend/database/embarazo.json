@@ -1,0 +1,75 @@
+[
+    {
+      "titulo": "Primer trimestre",
+      "descripcion": "Adaptación inicial del cuerpo, aparición de síntomas y controles médicos fundamentales.",
+      "portada": "img/primer-trimestre.jpeg",
+      "link": "https://youtu.be/qI4DHgozRu8?si=WgiIzDF5xLmk7vKF"
+    },
+    {
+      "titulo": "Nutrición en el embarazo",
+      "descripcion": "Guía sobre alimentos clave, vitaminas y hábitos para una alimentación equilibrada.",
+      "portada": "img/nutricion.jpg",
+      "link": "https://youtu.be/D28cW3qYiRc?si=l_uKKGNrct8Hqk4k"
+    },
+    {
+      "titulo": "Actividad física",
+      "descripcion": "Beneficios de moverse durante el embarazo y ejercicios recomendados para cada etapa.",
+      "portada": "img/activ-fisca.jpg",
+      "link": "https://youtu.be/U1OA_yMDah0?si=eV3RjVK2GQcfeDms"
+    },
+    {
+      "titulo": "Sueño y descanso",
+      "descripcion": "Consejos para mejorar el descanso y lidiar con las molestias que alteran el sueño.",
+      "portada": "img/sueño.jpg",
+      "link": "https://youtu.be/Vq-AcF2fRZw?si=TIa8xzeaz9RrxltE"
+    },
+    {
+      "titulo": "Anemia en el embarazo",
+      "descripcion": "Qué es, cómo prevenirla, síntomas frecuentes y alimentos ricos en hierro.",
+      "portada": "img/anemia.jpg",
+      "link": "https://youtu.be/11iqT_558xY?si=q7hpVOmMKQKvFgqN"
+    },
+    {
+      "titulo": "Resfríos en el embarazo",
+      "descripcion": "Cuidados especiales frente a infecciones leves y medicamentos permitidos.",
+      "portada": "img/resfrio.jpg",
+      "link": "https://youtu.be/-_YAGH_Y5Sg?si=38NXNOdTpSs5Kjkz"
+    },
+    {
+      "titulo": "Consultas y controles",
+      "descripcion": "Cronograma de visitas médicas y estudios importantes para seguir la evolución.",
+      "portada": "img/ecografia.jpg",
+      "link": "https://youtu.be/6DesoMNKY1g?si=yv0tN8qmyE7QjG78"
+    },
+    {
+      "titulo": "Ecografía morfológica",
+      "descripcion": "Estudio que permite evaluar el desarrollo del bebé y detectar posibles anomalías.",
+      "portada": "img/eco-morf.jpg",
+      "link": "https://youtu.be/hSYpx0I8R0w?si=-zfGeReS1JfDssGt"
+    },
+    {
+      "titulo": "Movimientos del bebé",
+      "descripcion": "Cuándo comienzan, cómo reconocerlos y qué tener en cuenta sobre su frecuencia.",
+      "portada": "img/movimiento.jpg",
+      "link": "https://youtu.be/R1wkIR4PhVc?si=VZrATatWV75N0V6N"
+    },
+    {
+      "titulo": "Monitoreo fetal",
+      "descripcion": "Control que evalúa el bienestar del bebé en etapas avanzadas del embarazo.",
+      "portada": "img/monitoreo.jpg",
+      "link": "https://youtu.be/8pwlfhd5D2s?si=9Oa--06_MBq_jXcp"
+    },
+    {
+      "titulo": "Plan de parto",
+      "descripcion": "Organización previa para expresar deseos, derechos y decisiones sobre el nacimiento.",
+      "portada": "img/plan.jpg",
+      "link": "https://www.youtube.com/live/TNMMsqxl9OI?si=ZXb-mD21ceFWP3Si"
+    },
+    {
+      "titulo": "Curso de preparto",
+      "descripcion": "Espacio de preparación emocional y física para el trabajo de parto y la maternidad ofrecido por Pampers.",
+      "portada": "img/preparto.jpg",
+      "link": "https://www.pamperslatam.com/embarazo/curso-preparto-pampers"
+    }
+  ]
+  
