@@ -1,0 +1,82 @@
+// const products = [
+  // ROPA / CALZADO
+//  { id: 1, name: "Osito de invierno - GAP", user: "Martina", category: "Ropa / Calzado", price: "$26.000", img: "img/tienda/ropa-calzado/osito-gap.webp", link: "" },
+
+//  { id: 2, name: "Osito de invierno - H&M", user: "Martina", category: "Ropa / Calzado", price: "$23.000", img: "img/tienda/ropa-calzado/osito-hm.webp", link: "" },
+  
+//  { id: 3, name: "Pack 2 Ositos Polar - Carter's", user: "Martina", category: "Ropa / Calzado", price: "$29.000", img: "img/tienda/ropa-calzado/pack-ositos.webp", link: "" },
+  
+//  { id: 4, name: "Pack 3 Bodies - Cheeky", user: "Valentina", category: "Ropa / Calzado", price: "$17.000", img: "img/tienda/ropa-calzado/pack3-bodies.webp", link: "" },
+
+//  { id: 5, name: "Pack 4 Bodies animales - Buditas", user: "Valentina", category: "Ropa / Calzado", price: "$14.000", img: "img/tienda/ropa-calzado/pack4-bodies.webp", link: "" },
+  
+//  { id: 6, name: "Body flores - Little Akiabara", user: "Julieta", category: "Ropa / Calzado", price: "$12.000", img: "img/tienda/ropa-calzado/bodyflor-la.webp", link: "" },
+  
+//  { id: 7, name: "Enterito flores - Little Akiabara", user: "Julieta", category: "Ropa / Calzado", price: "$17.000", img: "img/tienda/ropa-calzado/enterito-la.webp", link: "" },
+  
+// LACTANCIA
+//  { id:8, name: "Almohadón de lactancia - Mamas and Papas", user: "Malena", category: "Lactancia", price: "$45.000", img: "img/tienda/lactancia/almohadon.jpg", link: "" },
+
+//  { id:9, name: "Almohadón para amamantar", user: "Raquel", category: "Lactancia", price: "$20.000", img: "img/tienda/lactancia/almohadon-amamantar.jpg", link: "" },
+
+// PORTEO
+//  { id:10, name: "Mochila porta bebé 4004 - Love", user: "Mora", category: "Porteo", price: "$27.000", img: "img/tienda/porteo/mochila-love.webp", link: "" },
+
+//  { id:11, name: "Mochila porta bebé Gera - Duck", user: "Virginia", category: "Porteo", price: "$25.000", img: "img/tienda/porteo/mochila-duck1.jpg", link: "" },
+
+// COCHECITOS / ACCESORIOS
+//  { id: 12, name: "Huevito Kiev 2023 - Carestino", user: "Rocío", category: "Cochecitos / Accesorios", price: "$57.000", img: "img/tienda/cochecitos-accesorios/huevito-kiev.jpg", link: "" },
+
+//  { id: 13, name: "Funda de huevito - Skip Hop", user: "Agustina", category: "Cochecitos / Accesorios", price: "$34.000", img: "img/tienda/cochecitos-accesorios/funda-huevito.jpg", link: "" },
+  
+//  { id:14, name: "Cochecito Kolcraft 2019 - Cloud", user: "Jimena", category: "Cochecitos / Accesorios", price: "$70.000", img: "img/tienda/cochecitos-accesorios/cochecito-cloud.jpg", link: "" },
+
+//  { id:15, name: "Cochecito Elite Premium 2023 - Mega Baby", user: "Macarena", category: "Cochecitos / Accesorios", price: "$203.000", img: "img/tienda/cochecitos-accesorios/cochecito-megababy.jpg", link: "" },
+
+//  { id:16, name: "Cochecito Aston - Premium Baby", user: "Rosario", category: "Cochecitos / Accesorios", price: "$203.000", img: "img/tienda/cochecitos-accesorios/coche-aston.jpg", link: "" },
+
+//  { id:17, name: "Patineta para cochecito - Britax", user: "Paloma", category: "Cochecitos / Accesorios", price: "$57.000", img: "img/tienda/cochecitos-accesorios/patineta.jpg", link: "" },
+
+// CUNAS
+//  { id:18, name: "Cuna colecho (sin uso) melamina", user: "Camila", category: "Cunas", price: "$100.000", img: "img/tienda/cunas/cuna-melamina.jpg", link: "" },
+    
+//  { id:19, name: "Cuna colecho pino laqueada", user: "Josefina", category: "Cunas", price: "$92.000", img: "img/tienda/cunas/cuna-pino.jpg", link: "" },
+
+//  { id:20, name: "Cuna Charriot Paraiso escandinava", user: "Victoria", category: "Cunas", price: "$100.000", img: "img/tienda/cunas/cuna-escandinava.jpg", link: "" },
+
+//  { id:21, name: "Cuna colecho madera maciza", user: "Milagros", category: "Cunas", price: "$85.000", img: "img/tienda/cunas/cuna-maciza.jpg", link: "" },
+
+//  { id:22, name: "Practicuna Breeze Go - 4Moms", user: "Florencia", category: "Cunas", price: "$85.000", img: "img/tienda/cunas/practicuna-4moms.jpg", link: "" },
+
+//  { id:23, name: "Practicuna Pack and Play - Graco", user: "Abril", category: "Cunas", price: "$68.000", img: "img/tienda/cunas/practicuna-graco.jpg", link: "" },
+
+//  { id:24, name: "Practicuna Illusion - Joie", user: "Katherine", category: "Cunas", price: "$92.000", img: "img/tienda/cunas/cuna-joie.jpg", link: "" },
+
+// MECEDORAS
+//  { id:25, name: "Silla mecedora - Bebesit", user: "Isabella", category: "Mecedoras", price: "$51.000", img: "img/tienda/mecedoras/silla-bebesit.jpg", link: "" },
+
+//  { id:26, name: "Mecedora - Felcraft", user: "María", category: "Mecedoras", price: "$39.000", img: "img/tienda/mecedoras/mecedora-fel.jpg", link: "" },
+    
+//  { id:27, name: "Silla mecedora - Baby Innovation", user: "Antonella", category: "Mecedoras", price: "45.000", img: "img/tienda/mecedoras/silla-baby.jpg", link: "" },
+
+//  { id:28, name: "Mecedora - Fisher Price", user: "Daniela", category: "Mecedoras", price: "$72.000", img: "img/tienda/mecedoras/mecedora-fisher.jpg", link: "" },
+
+// DIVERSIÓN
+//  { id:29, name: "Móvil cunero (sin uso)", user: "Ornella", category: "Diversión", price: "$29.000", img: "img/tienda/diversion/movil.jpg", link: "" },
+
+//  { id:30, name: "Play center - B Kids", user: "Alicia", category: "Diversión", price: "$11.000", img: "img/tienda/diversion/playcenter.jpg", link: "" },
+
+//  { id:31, name: "Manta didáctica 3 en 1 - Ok Baby", user: "Bárbara", category: "Diversión", price: "$31.000", img: "img/tienda/diversion/manta.jpg", link: "" },
+
+//  { id:32, name: "Gimnasio - Fisher Price", user: "Candela", category: "Diversión", price: "$33.000", img: "img/tienda/diversion/gimnasio.webp", link: "" },
+
+//  { id:33, name: "Pelotero - Fisher Price", user: "Emilia", category: "Diversión", price: "$39.000", img: "img/tienda/diversion/pelotero-fisher.jpg", link: "" },
+
+//  { id:33, name: "Pelotero 3 en 1- Felcraft", user: "Giselle", category: "Diversión", price: "$45.000", img: "img/tienda/diversion/pelotero-fel.jpg", link: "" },
+
+// SILLITAS DE COMER
+//  { id:34, name: "Silla de comer 2 en 1 - Baby Pops", user: "Lucero", category: "Sillitas de comer", price: "$65.000", img: "img/tienda/sillitas de comer/silla-baby.jpg", link: "" },
+
+//  { id:31, name: "Silla de comer Booster - Glee", user: "Ludmila", category: "Sillitas de comer", price: "$25.000", img: "img/tienda/sillitas de comer/silla-glee.jpg", link: "" },
+
+//];
